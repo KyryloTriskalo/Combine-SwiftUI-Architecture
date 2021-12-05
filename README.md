@@ -11,7 +11,7 @@
 8. Resources 
 
 # Presentation links:
-https://github.com/KyryloTriskalo/Combine-SwiftUI-Architecture/blob/main/Telegram/Telegram/Resources/MVVM%2BCombine%2BSwiftUI.pdf - read verison
+https://github.com/KyryloTriskalo/Combine-SwiftUI-Architecture/blob/main/Telegram/Telegram/Resources/MVVM%2BCombine%2BSwiftUI.pdf - read version
 https://chiswdevelopment.sharepoint.com/sites/iOSteam/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FiOSteam%2FShared%20Documents%2FGeneral%2FRecordings%2FДоклад%20на%20тему%20%5FЛучшая%20архитектура%20для%20связки%20combine%20%2BSwiftUI%5F%2D20210916%5F160159%2DЗапись%20собрания%2Emp4&parent=%2Fsites%2FiOSteam%2FShared%20Documents%2FGeneral%2FRecordings video conference
 
 # Resources
@@ -37,7 +37,7 @@ https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-get
 https://github.com/typicode/json-server - git\
 https://www.youtube.com/watch?v=7vx0RIwHVzg&t=928s - tutorial
 
-# How launch local server:
+# How to launch local server:
  1) https://nodejs.org/uk/download/ - download node js for your mac
  2) in terminal run ' npm install -g json-server ' 
  3) in terminal run ' json-server --watch db.json '
