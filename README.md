@@ -42,5 +42,5 @@ https://www.youtube.com/watch?v=7vx0RIwHVzg&t=928s - tutorial
  2) in terminal run ' npm install -g json-server ' 
  3) in terminal run ' json-server --watch db.json '
  4) copy data from database.json (lay inside the Network Manager folder) and paste it on the db.json file
- 5) cmd + s, quit terminal, and repeat step 3 in place where you created db.json file
+ 5) cmd + s, quit terminal, and repeat step 3 in the place where you created db.json file
 
