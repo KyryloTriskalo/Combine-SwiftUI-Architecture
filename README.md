@@ -44,3 +44,16 @@ https://www.youtube.com/watch?v=7vx0RIwHVzg&t=928s - tutorial
  4) copy data from database.json (lay inside the Network Manager folder) and paste it on the db.json file
  5) cmd + s, quit terminal, and repeat step 3 in the place where you created db.json file
 
+# Developed By
+
+Kyrylo Triskalo, Vlad Kosyi , CHI Software
+
+# License
+
+Copyright 2020 CHI Software.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
