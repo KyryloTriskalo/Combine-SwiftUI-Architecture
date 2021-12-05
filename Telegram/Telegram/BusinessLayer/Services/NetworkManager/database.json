@@ -1,0 +1,45 @@
+{
+    "user": {
+        "id": 21,
+        "name": "Caroline",
+        "email": "111@gmail.com",
+        "phone": "380955999999",
+        "bio": "New bio about me",
+        "surname": "",
+        "uid": ""
+    },
+    "chats": [
+        {
+            "id": 1,
+            "name": "Отшельники",
+            "time": 33157246,
+            "last message": 21,
+            "picture": "p3",
+            "description": "Все подряд"
+        },
+        {
+            "id": 2,
+            "name": "Tech chat",
+            "time": 21,
+            "last message": "шо ты?",
+            "picture": "p1",
+            "description": "Чат по техническим вопросам"
+        },
+        {
+            "id": 3,
+            "name": "Pybytes",
+            "time": 32175470,
+            "last message": "",
+            "picture": "p2",
+            "description": "Чат по проекту"
+        },
+        {
+            "id": 4,
+            "name": "Сбор денег на что-то там",
+            "time": 13066233,
+            "last message": "скинул бабки +++",
+            "picture": "p5",
+            "description": ""
+        }
+    ]
+}

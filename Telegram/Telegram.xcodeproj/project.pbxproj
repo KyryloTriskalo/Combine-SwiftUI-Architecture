@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F064CD4275CDE9B007C28B8 /* database.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F064CD3275CDE9B007C28B8 /* database.json */; };
+		6F064CD6275D0B68007C28B8 /* MVVM+Combine+SwiftUI.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6F064CD5275D0B68007C28B8 /* MVVM+Combine+SwiftUI.pdf */; };
+		6F0A38D126DBC5F600860901 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A38D026DBC5F600860901 /* Extension+Date.swift */; };
+		6F38A8A126C3FF56007DA663 /* App+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F38A8A026C3FF56007DA663 /* App+Injection.swift */; };
+		6F71E1E726C934B100C1AFEC /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E1E626C934B100C1AFEC /* ChatService.swift */; };
+		6F71E1EC26C9378100C1AFEC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E1EB26C9378100C1AFEC /* Chat.swift */; };
+		6F71E1F126C9379100C1AFEC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E1F026C9379100C1AFEC /* Message.swift */; };
+		6F71E1F626C937A100C1AFEC /* SignInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E1F526C937A100C1AFEC /* SignInUser.swift */; };
+		6F71E1FE26C93AC900C1AFEC /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E1FD26C93AC900C1AFEC /* ChatList.swift */; };
+		6F71E20426C93B7A00C1AFEC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71E20326C93B7A00C1AFEC /* ChatCell.swift */; };
+		6FE7BA3E26C91D19003DC320 /* View+isHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7BA3B26C91D19003DC320 /* View+isHidden.swift */; };
+		6FF7420226DB8E0500CFB7CE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7420126DB8E0500CFB7CE /* ChatView.swift */; };
+		6FF7420426DB901400CFB7CE /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7420326DB901400CFB7CE /* ChatViewModel.swift */; };
+		CE26B15B25EBD74200E156D4 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26B15A25EBD74200E156D4 /* ChatListView.swift */; };
+		CE26B16325EBD75000E156D4 /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE26B16225EBD75000E156D4 /* ChatsPresenter.swift */; };
+		CE2766F625EAA72F002354BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2766F525EAA72F002354BC /* AppDelegate.swift */; };
+		CE2766F825EAA72F002354BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2766F725EAA72F002354BC /* SceneDelegate.swift */; };
+		CE2766FF25EAA730002354BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2766FE25EAA730002354BC /* Assets.xcassets */; };
+		CE27670225EAA730002354BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE27670025EAA730002354BC /* LaunchScreen.storyboard */; };
+		CE27670D25EAA731002354BC /* TelegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27670C25EAA731002354BC /* TelegramTests.swift */; };
+		CE27671825EAA731002354BC /* TelegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27671725EAA731002354BC /* TelegramUITests.swift */; };
+		CE27672A25EAB078002354BC /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27672925EAB078002354BC /* Networker.swift */; };
+		CE278AFC25F3DD3F00D9329A /* LoginViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278AFB25F3DD3F00D9329A /* LoginViewComponents.swift */; };
+		CE278B0825F3E18900D9329A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE278B0725F3E18900D9329A /* Validator.swift */; };
+		CE74DF2F25F3D714001DAA6A /* ProfileViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74DF2E25F3D714001DAA6A /* ProfileViewComponents.swift */; };
+		CE790E0925EBC1E800450F07 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE790E0425EBC1E800450F07 /* LoginViewModel.swift */; };
+		CE790E0A25EBC1E800450F07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE790E0525EBC1E800450F07 /* LoginView.swift */; };
+		CE790E1125EBC20D00450F07 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE790E0E25EBC20C00450F07 /* DateFormatter.swift */; };
+		CE790E2925EBC24500450F07 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE790E1F25EBC24500450F07 /* TabBarView.swift */; };
+		CE9E2D9B25F3B26A001CEFC6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E2D9A25F3B26A001CEFC6 /* User.swift */; };
+		CE9E5CCA25EAC48000423E44 /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E5CC925EAC48000423E44 /* Requester.swift */; };
+		CEA66C9A25EBF40700B0AA9C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA66C9925EBF40700B0AA9C /* ProfileView.swift */; };
+		CEA66C9C25EBF40E00B0AA9C /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA66C9B25EBF40E00B0AA9C /* ProfilePresenter.swift */; };
+		CEEE7B0925EAC3A1009C6A01 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE7B0825EAC3A1009C6A01 /* UserService.swift */; };
+		DDC66510F50471C1A36263C1 /* Pods_Telegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4565CC0B36B1D04340977F3F /* Pods_Telegram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE27670925EAA731002354BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2766EA25EAA72F002354BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2766F125EAA72F002354BC;
+			remoteInfo = Telegram;
+		};
+		CE27671425EAA731002354BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2766EA25EAA72F002354BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2766F125EAA72F002354BC;
+			remoteInfo = Telegram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392FF42F6B4FEC959147862A /* Pods-Telegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegram.debug.xcconfig"; path = "Target Support Files/Pods-Telegram/Pods-Telegram.debug.xcconfig"; sourceTree = "<group>"; };
+		4565CC0B36B1D04340977F3F /* Pods_Telegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F064CD3275CDE9B007C28B8 /* database.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = database.json; sourceTree = "<group>"; };
+		6F064CD5275D0B68007C28B8 /* MVVM+Combine+SwiftUI.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MVVM+Combine+SwiftUI.pdf"; sourceTree = "<group>"; };
+		6F0A38D026DBC5F600860901 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		6F38A8A026C3FF56007DA663 /* App+Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App+Injection.swift"; sourceTree = "<group>"; };
+		6F71E1E626C934B100C1AFEC /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		6F71E1EB26C9378100C1AFEC /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		6F71E1F026C9379100C1AFEC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6F71E1F526C937A100C1AFEC /* SignInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUser.swift; sourceTree = "<group>"; };
+		6F71E1FD26C93AC900C1AFEC /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
+		6F71E20326C93B7A00C1AFEC /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		6FE7BA3B26C91D19003DC320 /* View+isHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+isHidden.swift"; sourceTree = "<group>"; };
+		6FF7420126DB8E0500CFB7CE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		6FF7420326DB901400CFB7CE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		CE26B15A25EBD74200E156D4 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		CE26B16225EBD75000E156D4 /* ChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
+		CE2766F225EAA72F002354BC /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2766F525EAA72F002354BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2766F725EAA72F002354BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE2766FE25EAA730002354BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE27670125EAA730002354BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE27670325EAA730002354BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE27670825EAA731002354BC /* TelegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27670C25EAA731002354BC /* TelegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramTests.swift; sourceTree = "<group>"; };
+		CE27670E25EAA731002354BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE27671325EAA731002354BC /* TelegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE27671725EAA731002354BC /* TelegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramUITests.swift; sourceTree = "<group>"; };
+		CE27671925EAA731002354BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE27672925EAB078002354BC /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		CE278AFB25F3DD3F00D9329A /* LoginViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewComponents.swift; sourceTree = "<group>"; };
+		CE278B0725F3E18900D9329A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		CE74DF2E25F3D714001DAA6A /* ProfileViewComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewComponents.swift; sourceTree = "<group>"; };
+		CE790E0425EBC1E800450F07 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CE790E0525EBC1E800450F07 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE790E0E25EBC20C00450F07 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		CE790E1F25EBC24500450F07 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CE9E2D9A25F3B26A001CEFC6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE9E5CC925EAC48000423E44 /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		CEA66C9925EBF40700B0AA9C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CEA66C9B25EBF40E00B0AA9C /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		CEEE7B0825EAC3A1009C6A01 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D1E4D4940873AB4A5C2A7248 /* Pods-Telegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telegram.release.xcconfig"; path = "Target Support Files/Pods-Telegram/Pods-Telegram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2766EF25EAA72F002354BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC66510F50471C1A36263C1 /* Pods_Telegram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27670525EAA731002354BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27671025EAA731002354BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC0376AE255A284673693C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				392FF42F6B4FEC959147862A /* Pods-Telegram.debug.xcconfig */,
+				D1E4D4940873AB4A5C2A7248 /* Pods-Telegram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F38A89F26C3FF4E007DA663 /* Injection */ = {
+			isa = PBXGroup;
+			children = (
+				6F38A8A026C3FF56007DA663 /* App+Injection.swift */,
+			);
+			path = Injection;
+			sourceTree = "<group>";
+		};
+		6F71E20226C93B5800C1AFEC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6F71E20326C93B7A00C1AFEC /* ChatCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6FF7420026DB8DF700CFB7CE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7420326DB901400CFB7CE /* ChatViewModel.swift */,
+				6FF7420126DB8E0500CFB7CE /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		89124A4E0D791FB37793495D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4565CC0B36B1D04340977F3F /* Pods_Telegram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE26B15825EBD6A600E156D4 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				CE26B15925EBD6B400E156D4 /* List */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		CE26B15925EBD6B400E156D4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CE26B16225EBD75000E156D4 /* ChatsPresenter.swift */,
+				CE26B15A25EBD74200E156D4 /* ChatListView.swift */,
+				6F71E20226C93B5800C1AFEC /* Cell */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CE2766E925EAA72F002354BC = {
+			isa = PBXGroup;
+			children = (
+				CE2766F425EAA72F002354BC /* Telegram */,
+				CE27670B25EAA731002354BC /* TelegramTests */,
+				CE27671625EAA731002354BC /* TelegramUITests */,
+				CE2766F325EAA72F002354BC /* Products */,
+				4DC0376AE255A284673693C8 /* Pods */,
+				89124A4E0D791FB37793495D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2766F325EAA72F002354BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2766F225EAA72F002354BC /* Telegram.app */,
+				CE27670825EAA731002354BC /* TelegramTests.xctest */,
+				CE27671325EAA731002354BC /* TelegramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2766F425EAA72F002354BC /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				CECD546625EAD4EC0095EEC8 /* ApplicationLayer */,
+				CECD546425EAD48F0095EEC8 /* BusinessLayer */,
+				CECD546025EAC84A0095EEC8 /* PresentationLayer */,
+				CE790E0C25EBC20C00450F07 /* Helpers */,
+				CE9E2D9425F3A59E001CEFC6 /* Extensions */,
+				CECD545D25EAC8330095EEC8 /* Resources */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		CE27670B25EAA731002354BC /* TelegramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE27670C25EAA731002354BC /* TelegramTests.swift */,
+				CE27670E25EAA731002354BC /* Info.plist */,
+			);
+			path = TelegramTests;
+			sourceTree = "<group>";
+		};
+		CE27671625EAA731002354BC /* TelegramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE27671725EAA731002354BC /* TelegramUITests.swift */,
+				CE27671925EAA731002354BC /* Info.plist */,
+			);
+			path = TelegramUITests;
+			sourceTree = "<group>";
+		};
+		CE27672825EAAFD9002354BC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				6F064CD3275CDE9B007C28B8 /* database.json */,
+				CE27672925EAB078002354BC /* Networker.swift */,
+				CE9E5CC925EAC48000423E44 /* Requester.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		CE278AFA25F3DD2500D9329A /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CE278AFB25F3DD3F00D9329A /* LoginViewComponents.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		CE278B0625F3E15700D9329A /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				CE278B0725F3E18900D9329A /* Validator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		CE74DF2D25F3D707001DAA6A /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CE74DF2E25F3D714001DAA6A /* ProfileViewComponents.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		CE790E0025EBC1E800450F07 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE790E0225EBC1E800450F07 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE790E0225EBC1E800450F07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE278AFA25F3DD2500D9329A /* ViewComponents */,
+				CE790E0425EBC1E800450F07 /* LoginViewModel.swift */,
+				CE790E0525EBC1E800450F07 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE790E0C25EBC20C00450F07 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE790E0E25EBC20C00450F07 /* DateFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE790E1A25EBC24500450F07 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE790E1D25EBC24500450F07 /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CE790E1D25EBC24500450F07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE790E1F25EBC24500450F07 /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE9E2D9425F3A59E001CEFC6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7BA3B26C91D19003DC320 /* View+isHidden.swift */,
+				6F0A38D026DBC5F600860901 /* Extension+Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE9E2D9925F3B25C001CEFC6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E2D9A25F3B26A001CEFC6 /* User.swift */,
+				6F71E1EB26C9378100C1AFEC /* Chat.swift */,
+				6F71E1F026C9379100C1AFEC /* Message.swift */,
+				6F71E1F526C937A100C1AFEC /* SignInUser.swift */,
+				6F71E1FD26C93AC900C1AFEC /* ChatList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE9E5CCB25EAC4BC00423E44 /* ModulesService */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE7B0825EAC3A1009C6A01 /* UserService.swift */,
+				6F71E1E626C934B100C1AFEC /* ChatService.swift */,
+			);
+			path = ModulesService;
+			sourceTree = "<group>";
+		};
+		CEA66C9825EBF3EF00B0AA9C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CE74DF2D25F3D707001DAA6A /* ViewComponents */,
+				CEA66C9B25EBF40E00B0AA9C /* ProfilePresenter.swift */,
+				CEA66C9925EBF40700B0AA9C /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CECD545D25EAC8330095EEC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE2766FE25EAA730002354BC /* Assets.xcassets */,
+				CE27670025EAA730002354BC /* LaunchScreen.storyboard */,
+				CE27670325EAA730002354BC /* Info.plist */,
+				6F064CD5275D0B68007C28B8 /* MVVM+Combine+SwiftUI.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CECD546025EAC84A0095EEC8 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE790E0025EBC1E800450F07 /* Login */,
+				CE790E1A25EBC24500450F07 /* TabBar */,
+				CEA66C9825EBF3EF00B0AA9C /* Profile */,
+				CE26B15825EBD6A600E156D4 /* Chats */,
+				6FF7420026DB8DF700CFB7CE /* Chat */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		CECD546425EAD48F0095EEC8 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E2D9925F3B25C001CEFC6 /* Models */,
+				CEEE7B0A25EAC3BB009C6A01 /* Services */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		CECD546625EAD4EC0095EEC8 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE2766F525EAA72F002354BC /* AppDelegate.swift */,
+				CE2766F725EAA72F002354BC /* SceneDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		CEEE7B0A25EAC3BB009C6A01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE278B0625F3E15700D9329A /* Validator */,
+				6F38A89F26C3FF4E007DA663 /* Injection */,
+				CE9E5CCB25EAC4BC00423E44 /* ModulesService */,
+				CE27672825EAAFD9002354BC /* NetworkManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2766F125EAA72F002354BC /* Telegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE27671C25EAA731002354BC /* Build configuration list for PBXNativeTarget "Telegram" */;
+			buildPhases = (
+				D1F661B3FF72BD68609F9FC6 /* [CP] Check Pods Manifest.lock */,
+				CE2766EE25EAA72F002354BC /* Sources */,
+				CE2766EF25EAA72F002354BC /* Frameworks */,
+				CE2766F025EAA72F002354BC /* Resources */,
+				4C28C072FA1A039A655C97AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telegram;
+			productName = Telegram;
+			productReference = CE2766F225EAA72F002354BC /* Telegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE27670725EAA731002354BC /* TelegramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE27671F25EAA731002354BC /* Build configuration list for PBXNativeTarget "TelegramTests" */;
+			buildPhases = (
+				CE27670425EAA731002354BC /* Sources */,
+				CE27670525EAA731002354BC /* Frameworks */,
+				CE27670625EAA731002354BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE27670A25EAA731002354BC /* PBXTargetDependency */,
+			);
+			name = TelegramTests;
+			productName = TelegramTests;
+			productReference = CE27670825EAA731002354BC /* TelegramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE27671225EAA731002354BC /* TelegramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE27672225EAA731002354BC /* Build configuration list for PBXNativeTarget "TelegramUITests" */;
+			buildPhases = (
+				CE27670F25EAA731002354BC /* Sources */,
+				CE27671025EAA731002354BC /* Frameworks */,
+				CE27671125EAA731002354BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE27671525EAA731002354BC /* PBXTargetDependency */,
+			);
+			name = TelegramUITests;
+			productName = TelegramUITests;
+			productReference = CE27671325EAA731002354BC /* TelegramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2766EA25EAA72F002354BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CE2766F125EAA72F002354BC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CE27670725EAA731002354BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CE2766F125EAA72F002354BC;
+					};
+					CE27671225EAA731002354BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CE2766F125EAA72F002354BC;
+					};
+				};
+			};
+			buildConfigurationList = CE2766ED25EAA72F002354BC /* Build configuration list for PBXProject "Telegram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2766E925EAA72F002354BC;
+			productRefGroup = CE2766F325EAA72F002354BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2766F125EAA72F002354BC /* Telegram */,
+				CE27670725EAA731002354BC /* TelegramTests */,
+				CE27671225EAA731002354BC /* TelegramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2766F025EAA72F002354BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F064CD6275D0B68007C28B8 /* MVVM+Combine+SwiftUI.pdf in Resources */,
+				6F064CD4275CDE9B007C28B8 /* database.json in Resources */,
+				CE27670225EAA730002354BC /* LaunchScreen.storyboard in Resources */,
+				CE2766FF25EAA730002354BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27670625EAA731002354BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27671125EAA731002354BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C28C072FA1A039A655C97AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telegram/Pods-Telegram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Telegram/Pods-Telegram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Telegram/Pods-Telegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F661B3FF72BD68609F9FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2766EE25EAA72F002354BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE26B15B25EBD74200E156D4 /* ChatListView.swift in Sources */,
+				6F71E1FE26C93AC900C1AFEC /* ChatList.swift in Sources */,
+				CE74DF2F25F3D714001DAA6A /* ProfileViewComponents.swift in Sources */,
+				6F71E20426C93B7A00C1AFEC /* ChatCell.swift in Sources */,
+				6FF7420226DB8E0500CFB7CE /* ChatView.swift in Sources */,
+				CE2766F625EAA72F002354BC /* AppDelegate.swift in Sources */,
+				CE790E0A25EBC1E800450F07 /* LoginView.swift in Sources */,
+				CE9E2D9B25F3B26A001CEFC6 /* User.swift in Sources */,
+				6F71E1E726C934B100C1AFEC /* ChatService.swift in Sources */,
+				6F0A38D126DBC5F600860901 /* Extension+Date.swift in Sources */,
+				6FF7420426DB901400CFB7CE /* ChatViewModel.swift in Sources */,
+				CE278AFC25F3DD3F00D9329A /* LoginViewComponents.swift in Sources */,
+				CEA66C9C25EBF40E00B0AA9C /* ProfilePresenter.swift in Sources */,
+				CE790E1125EBC20D00450F07 /* DateFormatter.swift in Sources */,
+				6F71E1EC26C9378100C1AFEC /* Chat.swift in Sources */,
+				CEA66C9A25EBF40700B0AA9C /* ProfileView.swift in Sources */,
+				CE278B0825F3E18900D9329A /* Validator.swift in Sources */,
+				CE790E2925EBC24500450F07 /* TabBarView.swift in Sources */,
+				6F71E1F626C937A100C1AFEC /* SignInUser.swift in Sources */,
+				6FE7BA3E26C91D19003DC320 /* View+isHidden.swift in Sources */,
+				6F38A8A126C3FF56007DA663 /* App+Injection.swift in Sources */,
+				CEEE7B0925EAC3A1009C6A01 /* UserService.swift in Sources */,
+				CE790E0925EBC1E800450F07 /* LoginViewModel.swift in Sources */,
+				CE26B16325EBD75000E156D4 /* ChatsPresenter.swift in Sources */,
+				CE9E5CCA25EAC48000423E44 /* Requester.swift in Sources */,
+				6F71E1F126C9379100C1AFEC /* Message.swift in Sources */,
+				CE2766F825EAA72F002354BC /* SceneDelegate.swift in Sources */,
+				CE27672A25EAB078002354BC /* Networker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27670425EAA731002354BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27670D25EAA731002354BC /* TelegramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE27670F25EAA731002354BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27671825EAA731002354BC /* TelegramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE27670A25EAA731002354BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2766F125EAA72F002354BC /* Telegram */;
+			targetProxy = CE27670925EAA731002354BC /* PBXContainerItemProxy */;
+		};
+		CE27671525EAA731002354BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2766F125EAA72F002354BC /* Telegram */;
+			targetProxy = CE27671425EAA731002354BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE27670025EAA730002354BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE27670125EAA730002354BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE27671A25EAA731002354BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE27671B25EAA731002354BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE27671D25EAA731002354BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392FF42F6B4FEC959147862A /* Pods-Telegram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = T439UQJL26;
+				INFOPLIST_FILE = "$(SRCROOT)/Telegram/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.triskalo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE27671E25EAA731002354BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E4D4940873AB4A5C2A7248 /* Pods-Telegram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Telegram/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telegram.Telegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE27672025EAA731002354BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77GH97R8G9;
+				INFOPLIST_FILE = TelegramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telegram.TelegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegram.app/Telegram";
+			};
+			name = Debug;
+		};
+		CE27672125EAA731002354BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77GH97R8G9;
+				INFOPLIST_FILE = TelegramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telegram.TelegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telegram.app/Telegram";
+			};
+			name = Release;
+		};
+		CE27672325EAA731002354BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77GH97R8G9;
+				INFOPLIST_FILE = TelegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telegram.TelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegram;
+			};
+			name = Debug;
+		};
+		CE27672425EAA731002354BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77GH97R8G9;
+				INFOPLIST_FILE = TelegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telegram.TelegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Telegram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2766ED25EAA72F002354BC /* Build configuration list for PBXProject "Telegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27671A25EAA731002354BC /* Debug */,
+				CE27671B25EAA731002354BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE27671C25EAA731002354BC /* Build configuration list for PBXNativeTarget "Telegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27671D25EAA731002354BC /* Debug */,
+				CE27671E25EAA731002354BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE27671F25EAA731002354BC /* Build configuration list for PBXNativeTarget "TelegramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27672025EAA731002354BC /* Debug */,
+				CE27672125EAA731002354BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE27672225EAA731002354BC /* Build configuration list for PBXNativeTarget "TelegramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE27672325EAA731002354BC /* Debug */,
+				CE27672425EAA731002354BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2766EA25EAA72F002354BC /* Project object */;
+}
