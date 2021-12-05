@@ -29,8 +29,8 @@ https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3 - tutorial
 
 **Resolver:** 
 
-https://github.com/hmlongco/Resolver - git
-https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started - tutorial\
+https://github.com/hmlongco/Resolver - git\
+https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started - tutorial
 
 **Fake REST API:**
 
